@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    margin: 0; /* Sayfa kenar boşluklarını sıfırlar */
+    min-height: 100vh; /* Sayfa yüksekliği minimum %100 olacak şekilde ayarlar */
+    background-image: url("../images/5.avif");
+    background-size: cover; /* Resmi tam olarak kaplar */
+    background-position: center; /* Resmi merkezler */
+    background-repeat: no-repeat; /* Resmi tekrarlamaz */
+    background-attachment: fixed; /* Arka planı sabitler */
+    font-family: 'Mulish', sans-serif; /* Fontu ekler */
+  }
+
+a {
+  color: #00B7FF;
+}
+
+#title {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#quey-box {
+  margin-top: 50px;
+  text-align: center;
+  border: 4px;
+}
+
+#query input {
+  width: 200px;
+  height: 27px;
+  margin-left: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#query input::placeholder {
+  color: blueviolet;
+  font-size: 16px;
+  text-align: center;
+}
+
+#submitbtn {
+  margin-top: 23px;
+  color: blueviolet;
+  border-radius: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+#res-box {
+    width: 100%; /* Genişliği %100 yapar */
+    max-width: 1500px; /* Maksimum genişliği 1000px ile sınırla */
+    margin: 0 auto; /* Yatay ortalama için */
+    display: flex;
+    flex-direction: column; /* Flexbox yönünü dikey yapar */
+    min-height: 100vh; /* Yüksekliği ekranın tamamına yay */
+    border-radius: 30px;
+    background-color: #817ce2;
+    padding: 20px; /* İçerik ile kenar arasında boşluk bırak */
+    box-sizing: border-box; /* Padding ekleyince genişliği aşmasını engeller */
+    text-align: center;
+    margin-top: 30px;
+}
